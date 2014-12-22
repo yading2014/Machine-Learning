@@ -51,4 +51,4 @@ sum(result==testing$classe)
 # Read Validation Data 
 validation <- read.csv("pml-testing.csv")
 validate <- predict(modFit, newdata=validation)
-print(validate) 
+print(validate)

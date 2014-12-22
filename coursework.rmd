@@ -95,5 +95,5 @@ validate <- predict(modFit, newdata=validation)
 print(validate) 
 ```
 
-## Summary 
+## Report summary 
 In this report, we use only method "rpart" without preprocessing. However, empty and some data points were removed due to the data. The error rate is about 50% (baseline 20%). Other methods should be applied in the future combining more machine learning techniques. 
